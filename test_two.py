@@ -15,7 +15,6 @@ from kivy.uix.textinput import TextInput
 from kivy.uix.screenmanager import ScreenManager, Screen
 from kivy.factory import Factory
 from kivy.core.window import Window
-from PIL import Image as imjes
 
 url = 'https://gdz.ru/class-9/algebra/kolyagin/'
 
