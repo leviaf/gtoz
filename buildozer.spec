@@ -43,10 +43,11 @@ requirements = python3,kivy==2.0.0,beautifulsoup4==4.9.3,requests==2.26.0
 # requirements.source.kivy = ../../kivy
 
 # (str) Presplash of the application
-presplash.filename = %(source.dir)s
+presplash.filename = %(source.dir)s/presplash512okmin.png
 
 # (str) Icon of the application
-icon.filename = %(source.dir)s
+icon.filename = %(source.dir)s/logo512min.png
+
 # (str) Supported orientation (one of landscape, sensorLandscape, portrait or all)
 orientation = all
 
