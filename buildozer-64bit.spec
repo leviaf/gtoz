@@ -13,7 +13,7 @@ package.domain = org.wiseplat
 source.dir = .
 
 # (list) Source files to include (let empty to include all the files)
-#source.include_exts = py,png,jpg,kv,atlas,po,mo
+source.include_exts = py,png,jpg,kv,atlas,po,mo
 
 # (list) List of inclusions using pattern matching
 #source.include_patterns = assets/*,images/*.png
@@ -41,7 +41,6 @@ requirements = python3,kivy==2.0.0,beautifulsoup4==4.9.3,requests==2.26.0
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
 # requirements.source.kivy = ../../kivy
-
 # (str) Presplash of the application
 presplash.filename = %(source.dir)s/presplash512okmin.png
 

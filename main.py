@@ -89,7 +89,7 @@ class MyPopup(Popup):
 
         rq = reqwest(url + namber + '-nom/')
         if rq.status_code == 200:
-            html = BeautifulSoup(rq.text, 'lxml')
+            html = BeautifulSoup(rq.text, 'html.parser')
             for j in html.find_all('div', class_="with-overtask"):
                 img = 'https:' + j.find('img').get("src")
 
